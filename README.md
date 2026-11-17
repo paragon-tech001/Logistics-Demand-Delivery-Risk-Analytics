@@ -225,6 +225,7 @@ print("Expected delayed deliveries:",
 ```
 **Output:**
 
+```
 DELIVERY RISK ANALYSIS
 Probability of delay: 2.28 %
 Expected delayed deliveries: 195.38
@@ -241,7 +242,7 @@ That means that, under our assumed normal model, approximately 2.28 out of every
 Let's also determine the probability of receiving more than 15 requests in an hour.
 
 
-```python
+``` python
 
 # Probability of receiving more than 15 requests
 
@@ -254,9 +255,9 @@ print("\nDEMAND RISK ANALYSIS")
 
 print("Probability of exceeding 15 requests:",
       round(high_demand_probability * 100, 2), "%")
-
-
 ```
+
+
 **Output:**
 
 ```
